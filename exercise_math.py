@@ -1,3 +1,6 @@
+from ipaddress import summarize_address_range
+
+
 def math():
     """
     Ejercicio 1 - Operaciones Matemáticas
@@ -13,3 +16,20 @@ def math():
     """
     a = 57
     b = 7
+
+    suma=(a+b)
+    print(suma)
+    diferencia=(a-b)
+    print(diferencia)
+    producto=(a*b)
+    print(producto)
+    cociente_entero=(a//b)
+    promedio=((a+b)/2)
+    print(promedio)
+    print(cociente_entero)
+    resto=(a&b)
+    print(resto)
+    valor_real=(a/b)
+    print(valor_real)
+
+math()
